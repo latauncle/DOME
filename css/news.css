@@ -1,0 +1,263 @@
+.centers-qian
+{
+	margin-top: 20px;
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+
+}
+.cenqian-divcter
+{
+	width: 1000px;
+	height: 860px;
+	margin: auto;
+}
+.cenqian-divcter>div
+{
+	margin-left: 20px;
+}
+
+.cenqian-divcter div:nth-child(1) a
+{
+	list-style: none;
+	font-size: 12px;
+	color: grey;
+}
+.cenqian-divcter>div>a:hover
+{
+	color: red;
+}
+
+.divcter-lfet
+{
+	width: 680px;
+	height:auto;
+	float: left;
+
+}
+.divlfet-ul
+{
+	width: 100%;
+	height: auto;
+}
+.divlfet-ul li
+{
+	list-style: none;
+	width: 100%;
+	height: 80px;
+	background: white;
+	border-bottom: 1px dotted grey;
+	margin-top: 10px;
+}
+.divlfet-ul li a 
+{
+	color: black;
+}
+.divlfet-ul li a>p
+{
+	padding-left: 75px;
+}
+.divlfet-ul li a div
+{
+	
+	width: 63px;
+	height: 63px;
+	border: 1px solid gray;
+	border-radius: 10%;
+	float: left;
+	background: url(../img/libg11.gif) no-repeat;
+}
+.divlfet-ul li a div>P:nth-child(1)
+{
+	color: #2E2E2E;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 45px;
+}
+.divlfet-ul li a div>P:nth-child(2)
+{
+	text-align: center;
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 15px;
+}
+.divlfet-ul li:hover a div p
+{
+	color: white;
+}
+.divlfet-ul li:hover a div 
+{
+	background-position-y: -67px;
+}
+
+.divlfet-ul li a p:nth-child(2)
+{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;	
+}
+.divlfet-ul li a p:nth-child(3)
+{
+	font-size: 12px;
+	color: gray;
+}
+.divlfet-ul li a p:nth-child(4)
+{
+	font-size: 13px;
+}
+.divcter-right
+{
+	float:right ;
+	width: 280px;
+	height:700px;
+
+}
+.divcter-right div
+{
+	width: 100%;
+	height: 33px;
+	background: red;
+}
+.divcter-right div img
+{
+	float: left;
+}
+.divcter-right div b
+{
+	color: white;
+	line-height: 33px;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.right-ul 
+{
+	width: 100%;
+	height: 390px;
+ 
+}
+.right-ul  li
+{
+	
+	width: 123px;
+	height: 93px;
+	margin: 15px 5px;
+	list-style: none;
+	float: left;
+}
+.right-ul  li a
+{
+	color: black;
+}
+.right-ul  li a img
+{
+	border: 1px solid black;
+}
+.right-ul  li a p
+{
+	font-size: 12px;
+	line-height: 12px;
+}
+.right-ul  li:hover a p
+{
+	color: red;
+}
+.right-ul2
+{
+	width: auto;
+	height: auto;
+}
+.right-ul2 li
+{
+
+	width: 100%;
+	height: 28px;
+	list-style: none;
+}
+.right-ul2 li div
+{
+	width: 18px;
+	height: 100%;
+	float: left;
+	background: url(../img/libg5.gif);
+}
+
+.right-ul2 li:hover
+{
+	background:red;
+}
+.right-ul2 li:hover div
+{
+	background-position:0 -28px;
+}
+.right-ul2 li a
+{
+
+	line-height: 28px;
+	font-size: 13px;
+	color: black;
+}
+.right-ul2 li:hover a
+{
+	color: white;
+}
+.center-bottomdiv
+{
+	margin-top: 20px;
+	width: 100%;
+	height: 34px;
+	bottom: 0;
+}
+.center-bottomdiv>a
+{
+	font-size: 13px;
+}
+.center-bottomdiv ul li
+{
+	list-style: none;
+	width: 30px;
+	height: 25px;
+	float: left;
+	border: 1px solid gray;
+	color: gray;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+.center-bottomdivul li a
+{
+	color: gray;
+}
+.center-bottomdivul li:hover
+{
+	background: red;
+	color: white;
+}
+.center-bottomdiv ul li:hover a
+{
+	color: white;
+}
+.center-bottomdiv ul li:nth-child(1)
+{
+	width: 60px;
+}
+.center-bottomdiv ul li:nth-child(6)
+{
+	width: 60px;
+}
+.center-bottomdiv ul li:nth-child(7)
+{
+	width: 60px;
+}
+.center-bottomdiv>a
+{
+	width: 90px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	float: right;
+   	background: gray;
+   	color: white;
+}

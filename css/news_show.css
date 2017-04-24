@@ -1,0 +1,260 @@
+.center
+{
+	margin-top: 20px;
+	width: 100%;
+	min-width: 1000px;
+	height: 910px;
+}
+.center_box
+{
+	width: 1000px;
+	height: 910px;
+	margin: auto;
+}
+.center_box>div
+{
+	margin-left: 10px;
+}
+.center div:nth-child(1)>a
+{
+	list-style: none;
+	font-size: 12px;
+	color: grey;
+}
+.center div:nth-child(1)>a:hover
+{
+	color: red;
+}
+
+
+
+.center_box_lfet
+{
+	width: 690px;
+	height: 900px;
+	float: left;	
+	
+}
+
+.center_box_lfet>div
+{
+	width: 100%px;
+	height: 30px;
+	background: red;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+.lfet_box_ul
+{
+	width: 100%;
+	height: auto;
+
+}
+.lfet_box_ul li
+{
+	font-size: 13px;
+	list-style: none;
+	padding-left:10px;
+	margin: 5px 0;
+	line-height: 20px;
+}
+.lfet_box_ul li:nth-child(2)>div
+{
+	margin-left: 10px;
+}
+.lfet_box_ul li:nth-child(1)
+{
+	line-height: 20px;
+}
+
+
+.lfet_li_fengxiang 
+{
+	width: 640px;
+	height: 28px;
+	line-height: 28px;
+	background: url(../img/news_show/news_show_001.png) no-repeat;
+	background-position-x: 45px;
+	position: relative;
+}
+.lfet_li_fengxiang div
+{
+	float: left;
+}
+.lfet_li_fengxiang a:nth-child(2)
+{
+	position: absolute;
+	width: 69px;
+	left: 46px;
+	height: 28px;
+
+	
+}
+.lfet_li_fengxiang a:nth-child(3) 
+{	
+	
+	position: absolute;
+	width: 70px;
+	height: 28px;
+	left: 123px;
+
+}
+.lfet_li_fengxiang a:nth-child(4) 
+{	
+	
+	position: absolute;
+	width: 63px;
+	height: 28px;
+	left:203px;
+
+}
+.lfet_li_fengxiang a:nth-child(5) 
+{	
+	
+	position: absolute;
+	width: 55px;
+	height: 28px;
+	left:277px;
+
+}
+.lfet_li_fengxiang a:nth-child(6) 
+{	
+	
+	position: absolute;
+	width: 55px;
+	height: 28px;
+	left:343px;
+
+}
+.lfet_li_fengxiang a:nth-child(7) 
+{	
+	
+	position: absolute;
+	width: 44px;
+	height: 28px;
+	left:409px;
+
+}
+.lfet_li_fengxiang a:nth-child(8) 
+{	
+	
+	position: absolute;
+	width: 55px;
+	height: 28px;
+	left:463px;
+
+}
+.lfet_li_fengxiang a:nth-child(9) 
+{	
+	
+	position: absolute;
+	width: 44px;
+	height: 28px;
+	left:528px;
+
+}
+.lfet_box_ul li a
+{
+	color: black;
+}
+
+
+.center_box_right
+{
+	width: 290px;
+	height: 900px;
+	float: right;
+}
+.center_box_right div
+{
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+	background: red;
+}
+.center_box_right div img
+{
+	float: left;
+}
+.center_box_right div b
+{
+	color: white;
+	line-height: 33px;
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+.right-ul2
+{
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+.right-ul2 li
+{
+	font-size: 13px;
+	width: 100%;
+	height: 28px;
+	list-style: none;
+}
+.right-ul2 li div
+{
+	width: 18px;
+	height: 100%;
+	float: left;
+	background: url(../img/libg5.gif);
+}
+
+.right-ul2 li:hover
+{
+	background:red;
+}
+.right-ul2 li:hover div
+{
+	background-position:0 -28px;
+}
+.right-ul2 li a
+{
+
+	line-height: 28px;
+	font-size: 13px;
+	color: black;
+}
+.right-ul2 li:hover a
+{
+	color: white;
+}
+.right-ul 
+{
+	width: 100%;
+	height: 390px;
+ 
+}
+.right-ul  li
+{
+	
+	width: 123px;
+	height: 93px;
+	margin: 15px 10px;
+	list-style: none;
+	float: left;
+}
+.right-ul  li a
+{
+	color: black;
+}
+.right-ul  li a img
+{
+	border: 1px solid black;
+}
+.right-ul  li a p
+{
+	font-size: 12px;
+	line-height: 12px;
+}
+.right-ul  li:hover a p
+{
+	color: red;
+}

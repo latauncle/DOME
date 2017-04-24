@@ -1,0 +1,396 @@
+
+.center-neiron{
+	width: 1000px;
+	min-width: 1000px;
+	height: 520px;
+	margin: auto;
+}
+.nrleft{
+	width: 615px;
+	height: 100%;
+	float: left;
+}
+.nrleft>img{
+	margin-bottom: 10px;
+}
+.nrleft-left-boxs{
+	width: 318px;
+	height: 460px;
+	float: left;
+	margin-left: 10px;
+}
+.nrleft-left-boxs>div{
+	width: 312px;
+	height: 212px;
+	padding: 2;
+	border:1px solid gray;
+	margin-bottom: 2px;
+	position: relative;
+	overflow: hidden;
+}
+.huantu
+{
+	left: 2px;
+	top: 2px;
+	position: absolute;
+	width: 304px;
+	height: 500px;
+	transition: 1s;
+	
+}
+.nrleft-left-boxs p{
+	height: 35px;
+	width: 280px;
+	line-height: 35px;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px dotted gray;
+}
+.nrleft-left-boxs p a{
+	font-size: 14px;
+	font-weight: 100px;
+	color: gray;
+}
+.nrleft-left-boxs p:hover a{
+	color: red;
+}
+.nrleft-left-boxs ul li{	
+	background: url(../img/ioc_03.png) no-repeat left;
+	width: 280px;
+	height: 35px;
+	border-bottom: 1px dotted grey;
+	list-style: none;
+}
+.nrleft-left-boxs ul li a{
+	margin-left: 15px;
+	line-height: 35px;
+	font-size: 13px;
+	color: black;
+}
+.nrleft-left-boxs ul li:hover a{
+	color: red;
+}
+/*左边第二个*/
+.nrleft-right-boxs{
+	width: 280px;
+	height: 460px;
+	float: right;
+}
+.nrleft-right-boxs-top{
+	width: 270px;
+	height:217px;
+}
+.nrleft-right-boxs-top li{
+	width: 230px;
+    height: 52px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 13px;
+    padding-top: 14px;
+    font-weight: 100;
+    list-style: none;
+    margin-top: 2px;
+    float: left;
+}
+.nrleft-right-boxs-top li a{
+	color: black;
+}
+.nrleft-right-boxs-top li:hover a{
+	color: red;
+}
+.nrleft-right-boxs-top li:nth-child(1){
+	background: url(../img/shuzi/ico_bg1.gif);	
+}
+.nrleft-right-boxs-top li:nth-child(2){
+	background: url(../img/shuzi/ico_bg2.gif);
+}
+.nrleft-right-boxs-top li:nth-child(3){
+	background: url(../img/shuzi/ico_bg3.gif);
+}
+.nrleft-right-boxs-top li:hover{
+	background-position:0px 65px ;
+}
+.nrleft-right-boxs p{
+	width: 270px;
+	line-height: 35px;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px dotted gray;
+	margin-bottom: -3px;
+}
+.nrleft-right-boxs p a{
+	font-size: 14px;
+	font-weight: 100;
+	color: gray;
+}
+.nrleft-right-boxs p a:hover {
+	color: red;
+	
+}
+.nrleft-right-boxs-bottom
+{
+	margin-top: 4px;
+}
+.nrleft-right-boxs-bottom li{
+	background: url(../img/ioc_03.png) no-repeat left;
+	width: 270px;
+	height: 35px;
+	line-height: 35px;
+	list-style: none;
+	border-bottom: 1px dotted gray;
+}
+.nrleft-right-boxs-bottom li a{
+	margin-left: 15px;
+	font-size: 13px;
+	color: black;
+}
+.nrleft-right-boxs-bottom li:hover a{
+	color: red;
+}
+/*内容右*/
+.nrright
+{
+	width: 380px;
+	height: 100%;
+	float:right;	
+}
+.nrright img
+{
+	display: inline-block;
+	padding-left:18px;
+	margin-top: 10px;
+}
+/*中间内容结束*/
+.dottom-photo
+{
+	width: 1000px;
+	height: 400px;
+	margin: auto;
+}
+.dottom-photo>ul
+{
+	width: 1000px;
+	height: 240px;
+}
+.dottom-photo>ul>li
+{
+	width: 240px;
+	height: 326px;
+	margin: 0px 5px;
+	float: left;
+	list-style: none;
+}
+
+
+.dottom-photo>ul>li:nth-child(1)
+{
+	background: url(../img/jiehun1.png) no-repeat;
+	
+}
+/*下面四张图的特效-1*/
+.dphoto
+{
+	display:none;
+	width:240px;
+	height: 326px;
+	background: grey;
+	background:rgba(0,0,0,0.5);
+	position: relative;
+}
+.dphoto ul{
+	width: 240px;
+	position: absolute;
+	bottom:0;
+	height: auto;
+	left: 15px;
+	
+}
+.dphoto ul li
+{
+	display: none;
+	width: 200px;
+	list-style: none;
+	color: white;
+}
+.dphoto ul li:nth-child(1)
+{
+	font-size: 30px;
+}
+.dphoto ul li:nth-child(2)
+{
+	font-size: 10px;
+	border-bottom: 1px solid gray;
+}
+.dphoto ul li:nth-child(3)
+{
+	color: red;
+}
+.dphoto ul li:nth-child(4)
+{
+	font-size: 15px;
+	border-bottom: 1px solid gray;
+}
+
+.dottom-photo>ul>li:hover .dphoto
+{
+	display: block;
+}
+.dottom-photo>ul>li:hover .dphoto ul li
+{
+	display: block;
+}
+/*四张图的特效结束-1*/
+.dottom-photo>ul>li:nth-child(2)
+{
+	background: url(../img/jihun3.png) no-repeat;
+}
+/*下面四张图的特效-2*/
+.dphoto2
+{
+	display:none;
+	width:240px;
+	height: 326px;
+	background: grey;
+	background:rgba(0,0,0,0.5);
+	position: relative;
+}
+.dphoto2 ul{
+	width: 240px;
+	position: absolute;
+	bottom:0;
+	height: auto;
+	left: 15px;
+	
+}
+.dphoto2 ul li
+{
+	display: none;
+	width: 200px;
+	list-style: none;
+	color: white;
+}
+.dphoto2 ul li:nth-child(1)
+{
+	font-size: 30px;
+}
+.dphoto2 ul li:nth-child(2)
+{
+	font-size: 10px;
+	border-bottom: 1px solid gray;
+}
+.dphoto2 ul li:nth-child(3)
+{
+	color: red;
+}
+.dphoto2 ul li:nth-child(4)
+{
+	font-size: 15px;
+	border-bottom: 1px solid gray;
+}
+
+.dottom-photo>ul>li:hover .dphoto2
+{
+	display: block;
+}
+.dottom-photo>ul>li:hover .dphoto2 ul li
+{
+	display: block;
+}
+/*四张图的特效结束-2*/
+.dottom-photo>ul>li:nth-child(3)
+{
+	background: url(../img/jihun4.png) no-repeat;
+}
+/*下面四张图的特效-3*/
+.dphoto3{
+	display:none;
+	width:240px;
+	height: 326px;
+	background: grey;
+	background:rgba(0,0,0,0.5);
+	position: relative;
+}
+.dphoto3 ul{
+	width: 240px;
+	position: absolute;
+	bottom:0;
+	height: auto;
+	left: 15px;
+	
+}
+.dphoto3 ul li{
+	display: none;
+	width: 200px;
+	list-style: none;
+	color: white;
+}
+.dphoto3 ul li:nth-child(1){
+	font-size: 30px;
+}
+.dphoto3 ul li:nth-child(2){
+	font-size: 10px;
+	border-bottom: 1px solid gray;
+}
+.dphoto3 ul li:nth-child(3){
+	color: red;
+}
+.dphoto3 ul li:nth-child(4){
+	font-size: 15px;
+	border-bottom: 1px solid gray;
+}
+
+.dottom-photo>ul>li:hover .dphoto3{
+	display: block;
+}
+.dottom-photo>ul>li:hover .dphoto3 ul li{
+	display: block;
+}
+/*四张图的特效结束-3*/
+.dottom-photo>ul>li:nth-child(4){
+	background: url(../img/jihun2.png) no-repeat;
+}
+/*下面四张图的特效-4*/
+.dphoto4{
+	display:none;
+	width:240px;
+	height: 326px;
+	background: grey;
+	background:rgba(0,0,0,0.5);
+	position: relative;
+}
+.dphoto4 ul{
+	width: 240px;
+	position: absolute;
+	bottom:0;
+	height: auto;
+	left: 15px;
+	
+}
+.dphoto4 ul li{
+	display: none;
+	width: 200px;
+	list-style: none;
+	color: white;
+}
+.dphoto4 ul li:nth-child(1){
+	font-size: 30px;
+}
+.dphoto4 ul li:nth-child(2){
+	font-size: 10px;
+	border-bottom: 1px solid gray;
+}
+.dphoto4 ul li:nth-child(3){
+	color: red;
+}
+.dphoto4 ul li:nth-child(4){
+	font-size: 15px;
+	border-bottom: 1px solid gray;
+}
+.dottom-photo>ul>li:hover .dphoto4{
+	display: block;
+}
+.dottom-photo>ul>li:hover .dphoto4 ul li{
+	display: block;
+}
+/*四张图的特效结束-4*/
+/*dottom-photo结束*/
